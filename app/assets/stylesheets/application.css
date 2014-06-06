@@ -1,0 +1,67 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+body {
+  background-color: #fff;
+  background-image: url(skulls.png);
+}
+
+header h1 {
+  background-color: #679ED2; /* #04396C */
+  color: #fff;
+  padding: 15px;
+  margin-top: -10px;
+}
+
+h1, h2, h3, p, small {
+  color: #679ED2;
+}
+
+hr {
+  border-top: 1px solid #7a8288;
+}
+
+a {
+  color: #FCF6E7; /*#0C5AA6;*/
+  padding: 5px;
+  margin-left: -5px;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+a:hover {
+  color: #408AD2;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  background-color: #04396C;
+  padding-top: 10px;
+  margin-top: -10px;
+  width: 70%;
+}
+
+.posts {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: #FCF6E7; /*#272b30; */
+  padding: 1px 10px 10px 10px;
+}
+
+.posts h3 {
+  margin-top: 10px;
+}
