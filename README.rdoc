@@ -1,3 +1,5 @@
+= Instructions
+
 1.)
   - rails new followup && cd followup
   - rails s
