@@ -8,8 +8,10 @@
 </head>
 <body>
   <header>
-    <h1>Mein super süßer Miniblog</h1>
+    <h1><%= link_to "Mein super süßer Miniblog", posts_path %> | <%= link_to "Neuer Eintrag", new_post_path %></h1>
+
   </header>
+
 
   <div class="container">
     <%= yield %>

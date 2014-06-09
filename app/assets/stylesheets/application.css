@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-  color: #408AD2;
+  color: #FF7600;
   text-decoration: none;
   text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
 }
@@ -56,12 +56,73 @@ a:hover {
 }
 
 .posts {
-  border-radius: 10px;
   margin-bottom: 10px;
-  background-color: #FCF6E7; /*#272b30; */
-  padding: 1px 10px 10px 10px;
+  background-color: #fff; /*#FCF6E7;*/
+  padding: 10px;
 }
 
-.posts h3 {
-  margin-top: 10px;
+
+/* BACK_LINK */
+
+.back_link {
+  margin-top: 25px;
+  font-weight: bold;
 }
+
+.back_link a {
+  color: #408AD2;
+}
+
+.back_link a:hover {
+  color: #FF7600;
+}
+
+
+
+/* SHOW EDIT DELET LINK */
+.show_edit_delete  {
+  float: right;
+}
+
+.show_edit_delete a {
+  color: #FF7600;
+  text-shadow: none;
+}
+
+.show_edit_delete a:hover {
+  color: #408AD2;
+}
+
+/*.box_around_post {
+  border-radius: 10px;
+  background-color: #FCF6E7;
+  padding: 10px;
+  height: 440px;
+}*/
+
+/*.posts_new label {
+  margin-right: 10px;
+}*/
+
+
+
+
+/* CATEGORIES */
+
+.category {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FF7600;
+  text-transform: uppercase;
+  background-color: #FFCF00;
+  padding: 2px;
+  border: 2px solid #FF7600;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+

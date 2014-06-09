@@ -2,5 +2,8 @@
 <div class="posts">
 <h3><%= post.title %></h3>
 <p><%= post.content %></p>
+<p><span class="category"><%= post.category %></span></p>
 <small><i><%= l post.created_at, :format => :long %></i></small>
+<p class="show_edit_delete"><%= link_to "Show", post_path(post) %> |  <%= link_to "Edit", edit_post_path(post) %> |  <%= link_to "Delete", post_path(post), method: :delete, data: { confirm: 'Are you sure?' } %></p>
 </div>
+
